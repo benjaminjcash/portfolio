@@ -10,7 +10,7 @@ const NavTabs = () => (
             <Link to="/gather4good" className={window.location.pathname === "/gather4good" ? "nav-link active" : "nav-link"}>Gather4Good</Link>
         </li>
         <li className="nav-item">
-            <Link to="/proj2" className={window.location.pathname === "/proj2" ? "nav-link active" : "nav-link"}>proj2</Link>
+            <Link to="/getlunchdenver" className={window.location.pathname === "/getlunchdenver" ? "nav-link active" : "nav-link"}>GetLunchDenver</Link>
         </li>
     </ul>
 );
