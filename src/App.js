@@ -3,7 +3,7 @@ import { Grid, Row } from 'react-bootstrap';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import PersonalInformation from "./components/personal_information/PersonalInformation.js";
 import { Home, Gather4Good, GetLunchDenver } from "./components/projects";
-import NavTabs from "./components/NavTabs.js";
+import NavTabs from "./components/navtabs/NavTabs.js";
 
 class App extends Component {
   render() {

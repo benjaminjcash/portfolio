@@ -1,0 +1,17 @@
+.tab {
+    height: 160px;
+
+}
+
+#gather-logo {
+    background-color: black;
+    padding: 10px;
+    margin-top:35px;
+    margin-right: 10px;
+    height: 50px;
+    width: 150px;
+}
+
+#lunch-logo {
+    height: 130px
+}
