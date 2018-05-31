@@ -7,7 +7,7 @@ export const Home = () => {
             <Col md={6}>
                 <Panel>
                     <Panel.Heading>
-                        <i>Click the tabs above to see the projecs I have contributed to.</i>
+                        <h3>Click the icons above to learn more about the projecs I have worked on.</h3>
                     </Panel.Heading>
                 </Panel>
             </Col>

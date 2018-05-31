@@ -1,7 +1,73 @@
-h1, h2, h3, h4, li, p, i {
-    font-family: 'Nanum Gothic', sans-serif;
+h1, h2, h3, h4, h5, li, p, i {
+    font-family: 'Russo One', sans-serif;
+}
+
+.panel {
+    border: none;
 }
 
 #ben {
     padding: 20px;
+    height: 500px;
 }
+
+#name-panel-header {
+    background-color: white;
+}
+
+#name {
+    font-size: 70px;
+}
+
+#skills-panel-header {
+    background-color: white;
+}
+
+#skills {
+    float: right;
+    direction: rtl;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+#education-panel-header {
+    background-color: white;
+}
+
+#education {
+    float: right;
+    direction: rtl;
+    list-style-type: none;
+    font-size: 18px;    
+}
+
+#contact-panel-header {
+    background-color: white;
+    text-align: right;
+}
+
+#contact {
+    float: right;
+    direction: rtl;
+    list-style-type: none;
+}
+
+.contact-icons {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#github {
+    color: black;
+}
+
+#linkedin {
+    color: #0077B5;
+}
+
+#myemail {
+    color: darkblue;
+    float: right;
+}
+
