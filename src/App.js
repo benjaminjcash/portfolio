@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Row } from 'react-bootstrap';
+import { Grid, Row, Panel } from 'react-bootstrap';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import PersonalInformation from "./components/personal_information/PersonalInformation.js";
 import { Home, Gather4Good, GetLunchDenver } from "./components/projects";
@@ -13,14 +13,21 @@ class App extends Component {
           <PersonalInformation />
         </Row>
         <Row>
-          <Router>
-            <div>
-              <NavTabs />
-              <Route exact path="/" component={Home} />
-              <Route exact path="/gather4good" component={Gather4Good} />
-              <Route exact path="/getlunchdenver" component={GetLunchDenver} />
-            </div>
-          </Router>
+          <Panel>
+            <Panel.Heading id="project-panel-header">
+              <h3>Projects</h3>
+            </Panel.Heading>
+            <Panel.Body>
+              <Router>
+                <div>
+                  <NavTabs />
+                  <Route exact path="/" component={Home} />
+                  <Route exact path="/gather4good" component={Gather4Good} />
+                  <Route exact path="/getlunchdenver" component={GetLunchDenver} />
+                </div>
+              </Router>
+            </Panel.Body>
+          </Panel>
         </Row>
       </Grid>
     );
