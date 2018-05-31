@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Row, Col, Panel, Image } from "react-bootstrap";
 import "./PersonalInformation.css"
-import ben from "../../images/ben.png";
+import ben from "../../images/ben.jpg";
 
 const PersonalInformation = () => {
 
@@ -12,11 +12,11 @@ const PersonalInformation = () => {
                     <Row>
                         <Col md={12}>
                             <Panel>
-                                <Panel.Heading>
-                                    <h1 className="nameTitle">Benjamin Cash</h1>
+                                <Panel.Heading id="name-panel-header">
+                                    <h1 id="name">Benjamin Cash</h1>
                                 </Panel.Heading>
                                 <Panel.Body>
-                                    <i>Passionate and motivated web engineer with a Mathematics background.</i>
+                                    <h4>Full Stack web developer with a background in Mathematics currently seeking employment on the front range.</h4>
                                 </Panel.Body>
                             </Panel>
                         </Col>
@@ -24,12 +24,12 @@ const PersonalInformation = () => {
                     <Row>
                         <Col md={12}>
                             <Panel>
-                                <Panel.Heading>
+                                <Panel.Heading id="skills-panel-header">
                                     <h3>Technical Skills</h3>
                                 </Panel.Heading>
-                                <Panel.Body>
-                                    <ul>
-                                        <li>Node.js, React.js, Express.js, JQuery, HTML, CSS Handlebars, REST, MySQL, Sequelize, MongoDB, Mongoose, Firebase</li>
+                                <Panel.Body id="skills-panel">
+                                    <ul id="skills">
+                                        <li>Node.js, React, Express, JQuery, HTML, CSS Handlebars, REST, MySQL, Sequelize, MongoDB, Mongoose, Firebase</li>
                                         <li>Git/Github, CLI proficiency</li>
                                     </ul>
                                 </Panel.Body>
@@ -39,27 +39,50 @@ const PersonalInformation = () => {
                     <Row>
                         <Col md={12}>
                             <Panel>
-                                <Panel.Heading>
+                                <Panel.Heading id="education-panel-header">
                                     <h3>Education</h3>
                                 </Panel.Heading>
                                 <Panel.Body>
-                                    <ul>
+                                    <ul id="education">
                                         <li>
-                                            <h4>University of Colorado Boulder</h4>
-                                            <p>BA in Mathematics, comprehensive focus</p>
+                                            <h3>Denver University Coding Bootcamp</h3>
+                                            <p>Full Stack Web Development Program</p>
                                         </li>
                                         <li>
-                                            <h4>Denver University Coding Bootcamp</h4>
-                                            <p>Full Stack Web Development Program</p>
+                                            <h3>University of Colorado Boulder</h3>
+                                            <p>BA in Mathematics, comprehensive focus</p>
                                         </li>
                                     </ul>
                                 </Panel.Body>
                             </Panel>
                         </Col>
                     </Row>
+                    
                 </Col>
                 <Col xs={12} md={6}>
-                    <Image id="ben" src={ben} alt="img not found" circle />
+                    <Row>
+                        <Col xs={12} md={12}>
+                            <Image id="ben" src={ben} alt="img not found" />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} md={12}>
+                            <Panel>
+                                <Panel.Heading id="contact-panel-header">
+                                    <h3>Contact</h3>
+                                </Panel.Heading>
+                                <Panel.Body>
+                                    <Row>
+                                        <a href="https://github.com/benjaminjcash"><i id="github" className="contact-icons fab fa-github-square fa-6x"></i></a>
+                                        <a href="https://www.linkedin.com/in/benjamincash"><i id="linkedin" className="contact-icons fab fa-linkedin fa-6x"></i></a>
+                                    </Row>
+                                    <Row>
+                                        <h3 id="myemail">ben@benjamincash.com</h3>
+                                    </Row>
+                                </Panel.Body>
+                            </Panel>
+                        </Col>
+                    </Row>
                 </Col>
             </Row>
         </Grid>
