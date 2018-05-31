@@ -1,0 +1,19 @@
+.title-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    text-align: left;
+}
+
+#app-description {
+    margin: 10px;
+    float: left;
+}
+
+.icons {
+    float: right;
+    margin-right: 10px;
+}
+
