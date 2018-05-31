@@ -8,7 +8,11 @@ h1, h2, h3, h4, h5, li, p, i {
 
 #ben {
     padding: 20px;
-    height: 500px;
+    height: 450px;
+    float: right;
+    border-color: black;
+    border-width: 15px;
+    border-style: solid
 }
 
 #name-panel-header {
@@ -67,7 +71,15 @@ h1, h2, h3, h4, h5, li, p, i {
 }
 
 #myemail {
-    color: darkblue;
     float: right;
+}
+
+#project-panel-header {
+    background-color: white;
+}
+
+#home-panel-header {
+    background-color: white;
+    border-bottom:none;
 }
 

@@ -6,8 +6,8 @@ export const Home = () => {
         <Row>
             <Col md={6}>
                 <Panel>
-                    <Panel.Heading>
-                        <h3>Click the icons above to learn more about the projecs I have worked on.</h3>
+                    <Panel.Heading id="home-panel-header">
+                        <h3>Click the icons above to learn more about the projecs that I have worked on.</h3>
                     </Panel.Heading>
                 </Panel>
             </Col>
