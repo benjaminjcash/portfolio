@@ -3,12 +3,13 @@
     margin-bottom: 20px;
 }
 
-#gather-logo {
+#info-gather-logo {
     background-color: black;
     padding: 10px;
-    margin-right: 10px;
     height: 50px;
     width: 150px;
+    margin-top: -35px;
+    margin-right: 10px
 }
 
 h4 {
@@ -20,8 +21,15 @@ h4 {
     float: left;
 }
 
-.icons {
-    float: right;
+#g4gtitle {
+    background-color: white;
+    padding-left: 0px;
+}
+
+#g4gprev-1 {
+    margin-top: 50px;
     margin-right: 10px;
 }
+
+
 
