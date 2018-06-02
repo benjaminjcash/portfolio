@@ -1,32 +1,28 @@
 import React from "react";
-import { Grid, Row, Col, Thumbnail } from "react-bootstrap";
+import { Grid, Row, Col, Thumbnail, Jumbotron, Panel, Image } from "react-bootstrap";
 import search from "../../../images/fish/search.gif";
+import lunchlogo from "../../../images/fish/lunch-logo.jpg";
 import "./GetLunchDenver.css";
 
 export const GetLunchDenver = () => {
     return (
         <Grid>
             <Row>
-                <Col className="title-info" sm={12} md={9}>
-                    <h4 id="app-description">
-                        GetLunchDenver is an application for primary school aged children to find free meals sites that offer free food during the summer. We used
+                <Col md={6}>
+                    <Panel>
+                        <Thumbnail id="lunchprev-1" src={search} alt="242x200"></Thumbnail>
+                    </Panel>
+                </Col>
+                <Col md={6}>
+                    <Jumbotron id="lunchtitle">
+                        <h1>Get lunch, Denver</h1>
+                        <p>This application was built to make it easy for at risk youth to access free meal sites during the summer in Denver, CO. It implements
                         the GoogleMaps API and USDA meal site data to allow users to search based on location to find meal sites in their area and display them on 
-                        the map. The application provides users with a convenient way to find free food nearby in an effort to fight hunger for at risk youth.
-                    </h4>
+                        the map. Click the logo icon below to visit the website, or checkout the respository on github.</p>
+                        <a className="icons" href="https://martinvicknair.github.io/fish/"><Image id="info-lunch-logo" src={lunchlogo} alt="img not found"></Image></a>
+                        <a className="icons" href="https://github.com/martinvicknair/fish"><i className="fab fa-github fa-4x"></i></a>
+                    </Jumbotron>
                 </Col>
-                <Col className="title-info" sm={12} md={3}>
-                    <a className="icons" href="https://github.com/martinvicknair/fish"><i className="fab fa-github fa-4x"></i></a>
-                    <a className="icons" href="https://martinvicknair.github.io/fish/">GetLunchDenver</a>
-                </Col>
-            </Row>
-            <Row>
-                <Col xs={12} md={6}>
-                    <Thumbnail src={search} alt="242x200"></Thumbnail>
-                </Col>
-
-                <Col xs={12} md={6}>
-                    {/* <Thumbnail src={createevent} alt="242x200"></Thumbnail> */}
-            </Col>
             </Row>
         </Grid>
     )
