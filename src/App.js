@@ -4,18 +4,19 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import PersonalInformation from "./components/personal_information/PersonalInformation.js";
 import { Home, Gather4Good, GetLunchDenver } from "./components/projects";
 import NavTabs from "./components/navtabs/NavTabs.js";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <Grid>
+      <Grid id="page-container">
         <Row>
           <PersonalInformation />
         </Row>
         <Row>
           <Panel>
             <Panel.Heading id="project-panel-header">
-              <h3>Projects</h3>
+              <h1>Projects</h1>
             </Panel.Heading>
             <Panel.Body>
               <Router>

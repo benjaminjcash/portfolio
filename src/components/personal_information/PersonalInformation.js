@@ -16,7 +16,7 @@ const PersonalInformation = () => {
                                     <h1 id="name">Benjamin Cash</h1>
                                 </Panel.Heading>
                                 <Panel.Body>
-                                    <h4>Full Stack web developer with a background in Mathematics currently seeking employment on the front range.</h4>
+                                    <h2>Full Stack web developer currently seeking employment on the front range.</h2>
                                 </Panel.Body>
                             </Panel>
                         </Col>
@@ -25,12 +25,12 @@ const PersonalInformation = () => {
                         <Col md={12}>
                             <Panel>
                                 <Panel.Heading id="skills-panel-header">
-                                    <h3>Technical Skills</h3>
+                                    <h2>Technical Skills</h2>
                                 </Panel.Heading>
                                 <Panel.Body id="skills-panel">
                                     <ul id="skills">
-                                        <li>Node.js, React, Express, JQuery, HTML, CSS Handlebars, REST, MySQL, Sequelize, MongoDB, Mongoose, Firebase</li>
-                                        <li>Git/Github, CLI proficiency</li>
+                                        <li>Node.js, React, Express, JQuery, HTML, CSS Handlebars, REST, MySQL, Sequelize, MongoDB, Mongoose, Firebase, MERN Stack, MVC
+                                            Git/Github</li>
                                     </ul>
                                 </Panel.Body>
                             </Panel>
@@ -40,7 +40,7 @@ const PersonalInformation = () => {
                         <Col md={12}>
                             <Panel>
                                 <Panel.Heading id="education-panel-header">
-                                    <h3>Education</h3>
+                                    <h2>Education</h2>
                                 </Panel.Heading>
                                 <Panel.Body>
                                     <ul id="education">
@@ -62,22 +62,24 @@ const PersonalInformation = () => {
                 <Col xs={12} md={6}>
                     <Row>
                         <Col xs={12} md={12}>
-                            <Image id="ben" src={ben} alt="img not found" />
+                                <Image id="ben" src={ben} alt="img not found" />
                         </Col>
                     </Row>
                     <Row>
                         <Col xs={12} md={12}>
                             <Panel>
                                 <Panel.Heading id="contact-panel-header">
-                                    <h3>Contact</h3>
+                                    <h2>Contact</h2>
                                 </Panel.Heading>
-                                <Panel.Body>
+                                <Panel.Body><Row>
+                                    <ul id="contact">
+                                        <li><h3 id="myemail">ben@benjamincash.com</h3></li>
+                                        <li><h3>303-718-6299</h3></li>
+                                    </ul>
+                                </Row>
                                     <Row>
-                                        <a href="https://github.com/benjaminjcash"><i id="github" className="contact-icons fab fa-github-square fa-6x"></i></a>
-                                        <a href="https://www.linkedin.com/in/benjamincash"><i id="linkedin" className="contact-icons fab fa-linkedin fa-6x"></i></a>
-                                    </Row>
-                                    <Row>
-                                        <h3 id="myemail">ben@benjamincash.com</h3>
+                                        <a href="https://github.com/benjaminjcash"><i id="github" className="contact-icons fab fa-github-square fa-3x"></i></a>
+                                        <a href="https://www.linkedin.com/in/benjamincash"><i id="linkedin" className="contact-icons fab fa-linkedin fa-3x"></i></a>
                                     </Row>
                                 </Panel.Body>
                             </Panel>

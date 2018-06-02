@@ -16,7 +16,7 @@ export const GetLunchDenver = () => {
                 <Col md={6}>
                     <Jumbotron id="lunchtitle">
                         <h1>Get lunch, Denver</h1>
-                        <p>This application was built to make it easy for at risk youth to access free meal sites during the summer in Denver, CO. It implements
+                        <p>This application was built to make it easy for at risk youth to access free meal sites during the summer in Denver. It implements
                         the GoogleMaps API and USDA meal site data to allow users to search based on location to find meal sites in their area and display them on 
                         the map. Click the logo icon below to visit the website, or checkout the respository on github.</p>
                         <a className="icons" href="https://martinvicknair.github.io/fish/"><Image id="info-lunch-logo" src={lunchlogo} alt="img not found"></Image></a>
