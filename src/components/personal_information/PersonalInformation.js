@@ -16,7 +16,9 @@ const PersonalInformation = () => {
                                     <h1 id="name">Benjamin Cash</h1>
                                 </Panel.Heading>
                                 <Panel.Body>
-                                    <h2>Full Stack web developer currently seeking employment on the front range.</h2>
+                                    <h2>Full Stack web developer with a solid foundation in object-oriented programming. Able to build RESTful APIs, work with relational and
+                                        non-relational database structures, and proficient in ReactJS. Currently seeking employment on the front range.
+                                        </h2>
                                 </Panel.Body>
                             </Panel>
                         </Col>
@@ -29,8 +31,7 @@ const PersonalInformation = () => {
                                 </Panel.Heading>
                                 <Panel.Body id="skills-panel">
                                     <ul id="skills">
-                                        <li>Node.js, React, Express, JQuery, HTML, CSS Handlebars, REST, MySQL, Sequelize, MongoDB, Mongoose, Firebase, MERN Stack, MVC
-                                            Git/Github</li>
+                                        <li>Node.js, React, Express, JQuery, HTML, CSS Handlebars, REST, MySQL, Sequelize, MongoDB, Mongoose, Firebase, Git/Github</li>
                                     </ul>
                                 </Panel.Body>
                             </Panel>
@@ -78,8 +79,8 @@ const PersonalInformation = () => {
                                     </ul>
                                 </Row>
                                     <Row>
-                                        <a href="https://github.com/benjaminjcash"><i id="github" className="contact-icons fab fa-github-square fa-3x"></i></a>
-                                        <a href="https://www.linkedin.com/in/benjamincash"><i id="linkedin" className="contact-icons fab fa-linkedin fa-3x"></i></a>
+                                        <a href="https://github.com/benjaminjcash" target="_blank" rel="noopener noreferrer"><i id="github" className="contact-icons fab fa-github-square fa-3x"></i></a>
+                                        <a href="https://www.linkedin.com/in/benjamincash" target="_blank" rel="noopener noreferrer"><i id="linkedin" className="contact-icons fab fa-linkedin fa-3x"></i></a>
                                     </Row>
                                 </Panel.Body>
                             </Panel>
