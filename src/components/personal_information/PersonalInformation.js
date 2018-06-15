@@ -17,7 +17,7 @@ const PersonalInformation = () => {
                                 </Panel.Heading>
                                 <Panel.Body>
                                     <h2>Full Stack web developer with a solid foundation in object-oriented programming. Able to build RESTful APIs, work with relational and
-                                        non-relational database structures, and proficient in ReactJS. Currently seeking employment on the front range.
+                                        non-relational database structures, and develop robust single page applications using ReactJS.
                                         </h2>
                                 </Panel.Body>
                             </Panel>
@@ -31,7 +31,7 @@ const PersonalInformation = () => {
                                 </Panel.Heading>
                                 <Panel.Body id="skills-panel">
                                     <ul id="skills">
-                                        <li>Node.js, React, Express, JQuery, HTML, CSS Handlebars, REST, MySQL, Sequelize, MongoDB, Mongoose, Firebase, Git/Github</li>
+                                        <li>Node.js, React, Express, JQuery, HTML, CSS, Handlebars, REST, MySQL, Sequelize, MongoDB, Mongoose, Firebase, Git/Github</li>
                                     </ul>
                                 </Panel.Body>
                             </Panel>
