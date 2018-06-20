@@ -2,3 +2,10 @@
     margin-top: 100px;
     margin-bottom: 300px
 }
+
+@media screen and (max-width: 600px) {
+    #page-container {
+    margin-top: 0px;
+    margin-bottom: 300px
+    }
+}

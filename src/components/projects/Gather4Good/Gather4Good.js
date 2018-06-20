@@ -11,13 +11,13 @@ export const Gather4Good = () => {
                 
                 <Col md={6}>
                     <Jumbotron id="g4gtitle">
-                        <h1>Gather4Good</h1>
+                        <h1 class="projtitle">Gather4Good</h1>
                         <p>Gather4Good is a web application for organizing protests, marches, and stand-ins to 
                         raise awareness for meaningful and relevant social issues. It was built using React,
                         Node.js, Express, MongoDB, and authentication using JWT. Click the logo below to visit the website, or check
                         out our repository on Github.</p>
                         <a href="https://calm-taiga-53512.herokuapp.com/" target="_blank" rel="noopener noreferrer"><Image id="info-gather-logo" src={g4glogo} alt="img not found" rounded></Image></a>
-                        <a href="https://github.com/ninjaginja/gather-4-good" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-4x"></i></a>
+                        <a href="https://github.com/ninjaginja/gather-4-good" target="_blank" rel="noopener noreferrer"><i className="gitlogo fab fa-github fa-4x"></i></a>
                     </Jumbotron>
                     <Panel>
                     </Panel>

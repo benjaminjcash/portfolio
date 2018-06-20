@@ -67,6 +67,28 @@ h1, h2, h3, h4, h5, li, p, i {
     margin-left: 10px
 }
 
+#github {
+    color: black;
+    margin-right: 40px
+}
+
+#linkedin {
+    color: #0077B5;
+}
+
+#myemail {
+    float: right;
+}
+
+#project-panel-header {
+    background-color: white;
+}
+
+#home-panel-header {
+    background-color: white;
+    border-bottom:none;
+}
+
 @media screen and (max-width: 600px) {
 
     #contact-panel-header {
@@ -94,27 +116,18 @@ h1, h2, h3, h4, h5, li, p, i {
     color: #0077B5;
     margin-left: -10px;
     }
-}
 
-#github {
-    color: black;
-    margin-right: 40px
-}
+    #ben {
+        margin-right: -17px;
+    }
 
-#linkedin {
-    color: #0077B5;
-}
+    #bio {
+        font-size: 25px;
+    }
 
-#myemail {
-    float: right;
-}
-
-#project-panel-header {
-    background-color: white;
-}
-
-#home-panel-header {
-    background-color: white;
-    border-bottom:none;
+    .contact-icons {
+    float: left;
+    margin-right: 10px
+    }
 }
 

@@ -16,7 +16,7 @@ const PersonalInformation = () => {
                                     <h1 id="name">Benjamin Cash</h1>
                                 </Panel.Heading>
                                 <Panel.Body>
-                                    <h2>Full Stack web developer with a solid foundation in object-oriented programming. Able to build RESTful APIs, work with relational and
+                                    <h2 id="bio">Full Stack web developer with a solid foundation in object-oriented programming. Able to build RESTful APIs, work with relational and
                                         non-relational database structures, and develop robust single page applications using ReactJS.
                                         </h2>
                                 </Panel.Body>
@@ -79,8 +79,10 @@ const PersonalInformation = () => {
                                     </ul>
                                 </Row>
                                     <Row>
-                                        <a href="https://github.com/benjaminjcash" target="_blank" rel="noopener noreferrer"><i id="github" className="contact-icons fab fa-github-square fa-3x"></i></a>
-                                        <a href="https://www.linkedin.com/in/benjamincash" target="_blank" rel="noopener noreferrer"><i id="linkedin" className="contact-icons fab fa-linkedin fa-3x"></i></a>
+                                        <a href="https://github.com/benjaminjcash" target="_blank" rel="noopener noreferrer"><i id="github" className="contact-icons fab fa-github-square fa-3x hidden-xs"></i></a>
+                                        <a href="https://www.linkedin.com/in/benjamincash" target="_blank" rel="noopener noreferrer"><i id="linkedin" className="contact-icons fab fa-linkedin fa-3x hidden-xs"></i></a>
+                                        <a href="https://github.com/benjaminjcash" target="_blank" rel="noopener noreferrer"><i id="github" className="contact-icons fab fa-github-square fa-10x hidden-sm hidden-md hidden-lg hidden-xl"></i></a>
+                                        <a href="https://www.linkedin.com/in/benjamincash" target="_blank" rel="noopener noreferrer"><i id="linkedin" className="contact-icons fab fa-linkedin fa-10x hidden-sm hidden-md hidden-lg hidden-xl"></i></a>
                                     </Row>
                                 </Panel.Body>
                             </Panel>
