@@ -16,21 +16,21 @@ h4 {
     float: left;
 }
 
-#lunchprev-1 {
+#tutorial-prev {
     margin-top: 50px;
     margin-left: -10px;
 }
 
-#lunchtitle {
+#mistytitle {
     background-color: white
-}
-
-#info-lunch-logo {
-    height: 70px;
-    margin-top: 45px;
-    margin-right: 15px;
 }
 
 .gitlogo {
     margin-top: 50px;
+}
+
+#misty-light-logo {
+    height: 70px;
+    margin-top: 45px;
+    margin-right: 15px;
 }

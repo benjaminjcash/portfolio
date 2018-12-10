@@ -18,7 +18,8 @@ const PersonalInformation = () => {
                                 <Panel.Body>
                                     <h2 id="bio">Software Developer with a solid foundation in object-oriented programming in JavaScript and C#. Able to build RESTful APIs, work with relational and
                                         non-relational database structures, and develop robust single page applications using ReactJS.
-                                        </h2>
+									</h2>
+									<h3>Currently seeking employment on the front range.</h3>
                                 </Panel.Body>
                             </Panel>
                         </Col>
@@ -48,10 +49,11 @@ const PersonalInformation = () => {
                                         <li>
                                             <h3>Denver University Coding Bootcamp</h3>
                                             <p>Full Stack Development Program</p>
+											<p>November 2017 - May 2018</p>
                                         </li>
                                         <li>
                                             <h3>University of Colorado Boulder</h3>
-                                            <p>BA in Mathematics, comprehensive focus</p>
+                                            <p>BA: Mathematics, comprehensive focus</p>
                                         </li>
                                     </ul>
                                 </Panel.Body>
@@ -62,13 +64,21 @@ const PersonalInformation = () => {
                         <Col md={12}>
                             <Panel>
                                 <Panel.Heading id="experience-panel-header">
-                                    <h2>Experience</h2>
+                                    <h2>Development Experience</h2>
                                 </Panel.Heading>
                                 <Panel.Body>
                                     <ul id="experience">
                                         <li>
-                                            <h3>Misty Robotics</h3>
-                                            <p>info here</p>
+                                            <h3>Misty Robotics (project)</h3>
+                                            <p>Junior Software Engineer</p>
+											<ul>
+												<li>Developed software for the Home Robot Application</li>
+												<li>Wrote internal technical documentation and tutorials / code samples for users</li>
+												<li>Produced an automated regresssion test suite for engineering use</li>
+												<li>Replaced / installed hardware</li>
+												<li>Worked in an Agile enviroment with scrum methodologies</li>
+											</ul>
+											<p>August 2018 - November 2018</p>
                                         </li>
                                     </ul>
                                 </Panel.Body>
