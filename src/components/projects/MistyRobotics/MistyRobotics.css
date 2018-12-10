@@ -1,0 +1,36 @@
+.title-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    text-align: left;
+}
+
+#app-description {
+    margin: 10px;
+    float: left;
+}
+
+.icons {
+    float: left;
+}
+
+#lunchprev-1 {
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+#lunchtitle {
+    background-color: white
+}
+
+#info-lunch-logo {
+    height: 70px;
+    margin-top: 45px;
+    margin-right: 15px;
+}
+
+.gitlogo {
+    margin-top: 50px;
+}

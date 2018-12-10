@@ -16,7 +16,7 @@ const PersonalInformation = () => {
                                     <h1 id="name">Benjamin Cash</h1>
                                 </Panel.Heading>
                                 <Panel.Body>
-                                    <h2 id="bio">Full Stack web developer with a solid foundation in object-oriented programming. Able to build RESTful APIs, work with relational and
+                                    <h2 id="bio">Software Developer with a solid foundation in object-oriented programming in JavaScript and C#. Able to build RESTful APIs, work with relational and
                                         non-relational database structures, and develop robust single page applications using ReactJS.
                                         </h2>
                                 </Panel.Body>
@@ -31,7 +31,7 @@ const PersonalInformation = () => {
                                 </Panel.Heading>
                                 <Panel.Body id="skills-panel">
                                     <ul id="skills">
-                                        <li>Node.js, React, Express, JQuery, HTML, CSS, Handlebars, REST, MySQL, Sequelize, MongoDB, Mongoose, Firebase, Git/Github</li>
+                                        <li>Node.js, C#, React, Express, JQuery, HTML, CSS, Handlebars, REST, MySQL, Sequelize, MongoDB, Mongoose, Firebase, Git, Visual Studio</li>
                                     </ul>
                                 </Panel.Body>
                             </Panel>
@@ -47,11 +47,28 @@ const PersonalInformation = () => {
                                     <ul id="education">
                                         <li>
                                             <h3>Denver University Coding Bootcamp</h3>
-                                            <p>Full Stack Web Development Program</p>
+                                            <p>Full Stack Development Program</p>
                                         </li>
                                         <li>
                                             <h3>University of Colorado Boulder</h3>
                                             <p>BA in Mathematics, comprehensive focus</p>
+                                        </li>
+                                    </ul>
+                                </Panel.Body>
+                            </Panel>
+                        </Col>
+                    </Row>
+					<Row>
+                        <Col md={12}>
+                            <Panel>
+                                <Panel.Heading id="experience-panel-header">
+                                    <h2>Experience</h2>
+                                </Panel.Heading>
+                                <Panel.Body>
+                                    <ul id="experience">
+                                        <li>
+                                            <h3>Misty Robotics</h3>
+                                            <p>info here</p>
                                         </li>
                                     </ul>
                                 </Panel.Body>
@@ -75,7 +92,6 @@ const PersonalInformation = () => {
                                 <Panel.Body><Row>
                                     <ul id="contact">
                                         <li><h3 id="myemail">ben@benjamincash.com</h3></li>
-                                        <li><h3>303-718-6299</h3></li>
                                     </ul>
                                 </Row>
                                     <Row>

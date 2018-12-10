@@ -48,7 +48,15 @@ h1, h2, h3, h4, h5, li, p, i {
     font-size: 18px;    
 }
 
+#experience-panel-header {
+    background-color: white;
+    font-style: italic;
+}
 
+#experience {
+    list-style-type: none;
+    font-size: 18px;    
+}
 
 #contact-panel-header {
     background-color: white;
