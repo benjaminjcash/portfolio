@@ -4,10 +4,13 @@
     "\\src",
     "\\src\\components",
     "\\src\\components\\personal_information",
+    "\\src\\components\\projects",
+    "\\src\\components\\projects\\GetLunchDenver",
+    "\\src\\components\\projects\\MistyRobotics",
+    "\\src\\images",
     "\\src\\images\\fish",
-    "\\src\\images\\g4g",
-    "\\src\\images\\misty"
+    "\\src\\images\\g4g"
   ],
-  "SelectedNode": "\\src\\components\\personal_information\\PersonalInformation.css",
+  "SelectedNode": "\\src\\components\\projects\\MistyRobotics\\MistyRobotics.css",
   "PreviewInSolutionExplorer": false
 }
