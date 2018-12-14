@@ -73,11 +73,11 @@ const PersonalInformation = () => {
                                             <h3>Misty Robotics (project)</h3>
                                             <p>Junior Software Engineer</p>
 											<ul>
-												<li>Developed software for the Home Robot Application</li>
-												<li>Wrote internal technical documentation and tutorials / code samples for users</li>
-												<li>Produced an automated regresssion test suite for engineering use</li>
-												<li>Replaced / installed hardware</li>
-												<li>Worked in an Agile enviroment with scrum methodologies</li>
+												<li>Built API for Home Robot Application in C# using Visual Studio IDE</li>
+												<li>Produced Automated Regression Test Suite for Home Robot Platform in JavaScript</li>
+												<li>Wrote Interntal Technical Documentation and Tutorials / Code Samples for users</li>
+												<li>Replaced and installed circuit boards and wiring</li>
+												<li>Collaborated in an Agile Environment with SCRUM methodologies using Microsoft Azure</li>
 											</ul>
 											<p>August 2018 - November 2018</p>
                                         </li>
