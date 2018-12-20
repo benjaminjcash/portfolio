@@ -32,7 +32,7 @@ const PersonalInformation = () => {
                                 </Panel.Heading>
                                 <Panel.Body id="skills-panel">
                                     <ul id="skills">
-                                        <li>Node.js, Express, C# / .NET, JavaScript / TypeScript, ReactJS, REST API, Websockets, MongoDb / Mongoose, MySQL / Sequelize, Firebase, Visual Studio, Git / Github,
+                                        <li>Node.js, Express, C# / .NET, JavaScript / TypeScript, ReactJS, REST API, Websockets, MVC Framework, MongoDb / Mongoose, MySQL / Sequelize, Firebase, Visual Studio, Git / Github,
 										HTML5 / CSS3, JQuery, Handlebars, Bootstrap / Materialize, AWS, Linux CLI / Bash, Mocha / Chai</li>
                                     </ul>
                                 </Panel.Body>
