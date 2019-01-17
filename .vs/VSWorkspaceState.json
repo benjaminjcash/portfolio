@@ -3,14 +3,10 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\personal_information",
     "\\src\\components\\projects",
-    "\\src\\components\\projects\\GetLunchDenver",
-    "\\src\\components\\projects\\MistyRobotics",
-    "\\src\\images",
     "\\src\\images\\fish",
     "\\src\\images\\g4g"
   ],
-  "SelectedNode": "\\src\\components\\personal_information\\PersonalInformation.js",
+  "SelectedNode": "\\src\\components\\projects\\index.js",
   "PreviewInSolutionExplorer": false
 }

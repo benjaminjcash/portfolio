@@ -16,7 +16,7 @@ const PersonalInformation = () => {
                                     <h1 id="name">Benjamin Cash</h1>
                                 </Panel.Heading>
                                 <Panel.Body>
-                                    <h2 id="bio">Software Developer with a solid foundation in object-oriented programming in JavaScript and C#. Able to build RESTful APIs, work with relational and
+                                    <h2 id="bio">Software Developer with a foundation in object-oriented programming in JavaScript and C#. Able to build RESTful APIs, work with relational and
                                         non-relational database structures, and develop robust single page applications using ReactJS.
 									</h2>
 									<h3>Currently seeking employment on the front range.</h3>
@@ -75,7 +75,7 @@ const PersonalInformation = () => {
 											<ul>
 												<li>Built API for Home Robot Application in C# using Visual Studio IDE</li>
 												<li>Produced Automated Regression Test Suite for Home Robot Platform in JavaScript</li>
-												<li>Wrote Interntal Technical Documentation and Tutorials / Code Samples for users</li>
+												<li>Wrote Internal Technical Documentation and Tutorials / Code Samples for users</li>
 												<li>Replaced and installed circuit boards and wiring</li>
 												<li>Collaborated in an Agile Environment with SCRUM methodologies using Microsoft Azure</li>
 											</ul>
