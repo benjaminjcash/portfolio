@@ -108,8 +108,10 @@ const PersonalInformation = () => {
                                     <Row>
                                         <a href="https://github.com/benjaminjcash" target="_blank" rel="noopener noreferrer"><i id="github" className="contact-icons fab fa-github-square fa-3x hidden-xs"></i></a>
                                         <a href="https://www.linkedin.com/in/benjamincash" target="_blank" rel="noopener noreferrer"><i id="linkedin" className="contact-icons fab fa-linkedin fa-3x hidden-xs"></i></a>
+                                        <a href="https://www.hackerrank.com/cashbenj" target="_black" rel="noopener noreferrer"><i id="hackerrank" className="contact-icons fab fa-hackerrank fa-3x hidden-xs"></i></a>
                                         <a href="https://github.com/benjaminjcash" target="_blank" rel="noopener noreferrer"><i id="github" className="contact-icons fab fa-github-square fa-10x hidden-sm hidden-md hidden-lg hidden-xl"></i></a>
                                         <a href="https://www.linkedin.com/in/benjamincash" target="_blank" rel="noopener noreferrer"><i id="linkedin" className="contact-icons fab fa-linkedin fa-10x hidden-sm hidden-md hidden-lg hidden-xl"></i></a>
+                                        <a href="https://www.hackerrank.com/cashbenj" target="_black" rel="noopener noreferrer"><i id="hackerrank" className="contact-icons fab fa-hackerrank fa-10x hidden-sm hidden-md hidden-lg hidden-xl"></i></a>
                                     </Row>
                                 </Panel.Body>
                             </Panel>
