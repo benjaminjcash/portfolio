@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, li, p, i {
   padding-top: 20px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 991px) {
+@media screen and (min-width: 580px) and (max-width: 991px) {
   #DU_logo {
     margin-left: -20px;
   }
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, li, p, i {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 579px) {
     #name {
       font-size: 40px;
       text-align: center;
@@ -176,10 +176,7 @@ h1, h2, h3, h4, h5, li, p, i {
     #misty-dark-logo {
       width: 50px;
     }
-
-    #experience-details {
-      margin-left: -80px;
-    }
+    
 
     #contact-panel-header {
     background-color: white;
@@ -219,5 +216,53 @@ h1, h2, h3, h4, h5, li, p, i {
     float: left;
     margin-right: 10px
     }
+}
+
+@media screen and (max-width: 410px) {
+  .ed-detail-cols h3 {
+    font-size:20px;
+  }
+
+  .ed-detail-cols {
+    padding: -30px;
+  }
+
+  .ed-logo-cols {
+    padding: 0px;
+  }
+
+  .education {
+    padding-left: 30px
+  }
+
+  #misty-dark-logo {
+      width: 50px;
+    }
+
+    #experience-details {
+      margin-left: -80px;
+    }
+
+  #exp-logo-column {
+    padding: 0px;
+  }
+
+  #exp-detail-column {
+    padding: 0px;
+  }
+
+  #experience-details {
+    margin-left: -70px;
+  }
+
+  .contact-icons {
+    width: 50px;
+    margin-left: 25px;
+  }
+
+  #email {
+    margin-left: 15px;
+    margin-right: 5px;
+  }
 }
 

@@ -48,10 +48,10 @@ const PersonalInformation = () => {
                 </Panel.Heading>
                 <Panel.Body>
                     <Row>
-                      <Col md={2} xs={1}>
+                      <Col className="ed-logo-cols" md={2} xs={1}>
                         <Image id="DU_logo" src={DU_logo} alt="image not found" />
                       </Col>
-                    <Col md={10} xs={11}>
+                    <Col className="ed-detail-cols" md={10} xs={11}>
                         <ul className="education">
                           <li>
                             <h3>Full Stack Web Development Bootcamp</h3>
@@ -61,10 +61,10 @@ const PersonalInformation = () => {
                       </Col>
                     </Row>
                     <Row>
-                      <Col md={2} xs={1}>
+                      <Col className="ed-logo-cols" md={2} xs={1}>
                         <Image id="CU_logo" src={CU_logo} alt="image not found" />
                       </Col>
-                      <Col md={10} xs={11}>
+                    <Col className="ed-detail-cols" md={10} xs={11}>
                         <ul className="education">
                           <li>
                             <h3>BA Mathematics</h3>
@@ -85,10 +85,10 @@ const PersonalInformation = () => {
                       </Panel.Heading>
                       <Panel.Body>
                         <Row>
-                          <Col md={2} xs={1}>
+                          <Col id="exp-logo-column" md={2} xs={1}>
                             <Image id="misty-dark-logo" src={misty_dark_logo} alt="image not found"/>
                           </Col>
-                          <Col md={10} xs={11}>
+                          <Col id="exp-detail-column" md={10} xs={11}>
                             <ul id="experience">
                                 <li>
                                   <h3>Misty Robotics</h3>

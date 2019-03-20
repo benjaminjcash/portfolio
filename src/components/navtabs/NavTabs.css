@@ -24,7 +24,7 @@
   display: none;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 569px) {
   #lunch-logo {
     height: 80px;
   }
@@ -36,6 +36,23 @@
   }
   #g4g-sm-logo {
     height: 80px;
+    display: block;
+  }
+
+  #icon-list {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 409px) {
+  #lunch-logo {
+    height: 60px;
+  }
+  #misty-logo {
+    height: 60px;
+  }
+  #g4g-sm-logo {
+    height: 60px;
     display: block;
   }
 
