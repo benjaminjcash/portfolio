@@ -3,6 +3,12 @@
     margin-bottom: 300px
 }
 
+#home-link {
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
     #page-container {
     margin-top: 0px;

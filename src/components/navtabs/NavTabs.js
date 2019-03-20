@@ -14,9 +14,9 @@ const NavTabs = () => (
         <li className="nav-item">
             <Link to="/getlunchdenver" className={window.location.pathname === "/getlunchdenver" ? "nav-link active tab" : "nav-link tab"}><Image id="lunch-logo" src={lunchlogo} alt="img not found" rounded></Image></Link>
         </li>
-		<li className="nav-item">
-			<Link to="/misty" className={window.location.pathname === "/misty" ? "nav-link active tab" : "nav-link tab"}><Image id="misty-logo" src={mistylogo} alt="img not found" rounded></Image></Link>
-		</li>
+        <li className="nav-item">
+          <Link to="/misty" className={window.location.pathname === "/misty" ? "nav-link active tab" : "nav-link tab"}><Image id="misty-logo" src={mistylogo} alt="img not found" rounded></Image></Link>
+        </li>
     </ul>
 );
 

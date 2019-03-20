@@ -18,11 +18,13 @@ h4 {
 
 #lunchprev-1 {
     margin-top: 50px;
-    margin-left: -10px;
+    margin-left: -15px;
+    width: 100%
 }
 
 #lunchtitle {
-    background-color: white
+    background-color: white;
+    padding-left: 0px;
 }
 
 #info-lunch-logo {

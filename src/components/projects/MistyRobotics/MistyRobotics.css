@@ -18,11 +18,13 @@ h4 {
 
 #tutorial-prev {
     margin-top: 50px;
-    margin-left: -10px;
+    margin-left: -15px;
+    width: 100%
 }
 
 #mistytitle {
-    background-color: white
+    background-color: white;
+    padding-left: 0px;
 }
 
 .gitlogo {

@@ -102,6 +102,19 @@ h1, h2, h3, h4, h5, li, p, i {
     border-bottom:none;
 }
 
+#CU_logo {
+  padding-top: 20px;
+}
+
+#DU_logo {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#misty-dark-logo {
+  padding-top: 20px;
+}
+
 @media screen and (max-width: 600px) {
 
     #contact-panel-header {
