@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, li, p, i {
     font-style: italic;
 }
 
-#education {
+.education {
     list-style-type: none;
     font-size: 18px;    
 }
@@ -115,7 +115,78 @@ h1, h2, h3, h4, h5, li, p, i {
   padding-top: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 480px) and (max-width: 991px) {
+  #DU_logo {
+    margin-left: -20px;
+  }
+
+  #CU_logo {
+    margin-left: -20px;
+  }
+
+  #misty-dark-logo {
+    margin-left: -20px;
+  }
+
+  #contact {
+        float: left;
+        direction: ltr;
+        list-style-type: none;
+  }
+
+  #contact-panel-header {
+    background-color: white;
+    font-style: italic;
+    text-align: left;
+  }
+
+  #ben {
+    float: left;
+  }
+
+  .contact-icons {
+    float: left;
+  }
+
+  #linkedin {
+    margin-left: -20px;
+  }
+
+  #hackerrank {
+      float: left;
+      margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #name {
+      font-size: 40px;
+      text-align: center;
+    }
+
+    #bio h2, h3 {
+      font-size: 22px;
+    }
+
+    #skills {
+    margin-left: -35px;
+    }
+
+    #DU_logo {
+      width: 50px;
+    }
+
+    #CU_logo {
+      width: 50px;
+    }
+
+    #misty-dark-logo {
+      width: 50px;
+    }
+
+    #experience-details {
+      margin-left: -80px;
+    }
 
     #contact-panel-header {
     background-color: white;
@@ -134,21 +205,22 @@ h1, h2, h3, h4, h5, li, p, i {
         margin-left: 40px
     }
 
+    #hackerrank {
+      float: left;
+      margin-left: 20px;
+    }
+
     #github {
     color: black;
     }
 
     #linkedin {
-    color: #0077B5;
     margin-left: -10px;
     }
 
     #ben {
         margin-right: -17px;
-    }
-
-    #bio {
-        font-size: 25px;
+        display: none;
     }
 
     .contact-icons {

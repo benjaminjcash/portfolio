@@ -19,3 +19,27 @@
 #misty-logo {
 	height: 130px
 }
+
+#g4g-sm-logo {
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  #lunch-logo {
+    height: 80px;
+  }
+  #misty-logo {
+    height: 80px;
+  }
+  #gather-logo {
+    display: none;
+  }
+  #g4g-sm-logo {
+    height: 80px;
+    display: block;
+  }
+
+  #icon-list {
+    padding-left: 10px;
+  }
+}

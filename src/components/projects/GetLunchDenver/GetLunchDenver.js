@@ -8,7 +8,7 @@ export const GetLunchDenver = () => {
   return (
     <Grid>
       <Row>
-        <Col md={6}>
+        <Col md={6} xs={12}>
           <Jumbotron id="lunchtitle">
               <h1 className="projtitle">Get Lunch, Denver</h1>
               <p>Get Lunch, Denver was built to make it easy for at-risk youth to access free meal sites during the summer in Denver, Colorado. It implements
@@ -18,7 +18,7 @@ export const GetLunchDenver = () => {
               <a className="icons" href="https://github.com/martinvicknair/fish" target="_blank" rel="noopener noreferrer"><i className="gitlogo fab fa-github fa-4x"></i></a>
           </Jumbotron>
         </Col>
-        <Col md={6}>
+        <Col md={6} xs={12}>
           <Thumbnail id="lunchprev-1" src={search} alt="242x200"></Thumbnail>
         </Col>
       </Row>

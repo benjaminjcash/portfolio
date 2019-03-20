@@ -9,7 +9,7 @@ export const MistyRobotics = () => {
   return (
     <Grid>
       <Row>
-          <Col md={6}>
+          <Col xs={12} md={6}>
               <Jumbotron id="mistytitle">
                   <h1 className="projtitle">Misty Robotics</h1>
                   <p>Misty Robotics is a venture-funded start up based out of Boulder, Colorado with the goal of putting a "personal robot in every household." In addition to writing a regression test suite and developing Misty's software, 
@@ -22,7 +22,7 @@ export const MistyRobotics = () => {
                   <Image id="misty-2" src={misty2} alt="img not found"></Image>
               </Jumbotron>
           </Col>
-          <Col md={6}>
+          <Col xs={12} md={6}>
             <Thumbnail id="tutorial-prev" src={tutorial} alt="242x200"></Thumbnail>
           </Col>
       </Row>

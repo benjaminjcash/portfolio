@@ -9,7 +9,13 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 480px) and (max-width: 991px) {
+  #page-container {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 479px) {
     #page-container {
     margin-top: 0px;
     margin-bottom: 300px
