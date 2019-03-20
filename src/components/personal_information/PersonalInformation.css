@@ -64,20 +64,13 @@ h1, h2, h3, h4, h5, li, p, i {
     text-align: right;
 }
 
-#contact {
-    float: right;
-    direction: rtl;
-    list-style-type: none;
-}
-
 .contact-icons {
     float: right;
-    margin-left: 10px
+    margin-left: 25px
 }
 
 #github {
     color: black;
-    margin-right: 40px
 }
 
 #linkedin {
@@ -89,7 +82,8 @@ h1, h2, h3, h4, h5, li, p, i {
   float: right;
 }
 
-#myemail {
+#email {
+    color: #D44638;
     float: right;
 }
 
@@ -148,14 +142,13 @@ h1, h2, h3, h4, h5, li, p, i {
     float: left;
   }
 
-  #linkedin {
-    margin-left: -20px;
-  }
-
   #hackerrank {
-      float: left;
-      margin-left: 20px;
-    }
+    float: left;
+  }
+  
+  #email {
+    float: left;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -200,22 +193,21 @@ h1, h2, h3, h4, h5, li, p, i {
         list-style-type: none;
     }
 
-    .contact-icons {
-        float: left;
-        margin-left: 40px
-    }
-
     #hackerrank {
       float: left;
-      margin-left: 20px;
     }
 
     #github {
-    color: black;
+      margin-right: -5px;
     }
 
     #linkedin {
-    margin-left: -10px;
+      margin-right: -5px;
+    }
+
+    #email {
+      float: left;
+      margin-right: -5px;
     }
 
     #ben {
