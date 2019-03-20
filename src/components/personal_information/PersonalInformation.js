@@ -5,7 +5,6 @@ import ben from "../../images/ben.jpg";
 import DU_logo from '../../images/education/DU_logo.jpg';
 import CU_logo from '../../images/education/CU_logo.jpg';
 import misty_dark_logo from '../../images/misty/misty_dark_logo.png';
-import Mailto from 'react-mailto';
 
 const PersonalInformation = () => {
   return (
@@ -124,22 +123,21 @@ const PersonalInformation = () => {
                     </Panel.Heading>
                     <Panel.Body>
                       <Row>
-                          <Mailto email='ben@benjamincash.com'>
-                            <i id="email" className="contact-icons fas fa-envelope fa-6x hidden-sm hidden-xs"></i>
-                            <i id="email" className="contact-icons fas fa-envelope fa-5x hidden-xs hidden-md hidden-lg hidden-xl"></i>
-                            <i id="email" className="contact-icons fas fa-envelope fa-5x hidden-sm hidden-md hidden-lg hidden-xl"></i>
-                          </Mailto>
-                          <a href="https://www.linkedin.com/in/benjamincash" target="_blank" rel="noopener noreferrer"><i id="linkedin" className="contact-icons fab fa-linkedin fa-6x hidden-sm hidden-xs"></i></a>
-                          <a href="https://github.com/benjaminjcash" target="_blank" rel="noopener noreferrer"><i id="github" className="contact-icons fab fa-github-square fa-6x hidden-sm hidden-xs"></i></a>
-                          <a href="https://www.hackerrank.com/cashbenj" target="_black" rel="noopener noreferrer"><i id="hackerrank" className="contact-icons fab fa-hackerrank fa-6x hidden-sm hidden-xs"></i></a>
+                        <a href='mailto:ben@benjamincash.com'><i id="email" className="contact-icons fas fa-envelope fa-6x hidden-sm hidden-xs"></i></a>
+                        <a href='mailto:ben@benjamincash.com'><i id="email" className="contact-icons fas fa-envelope fa-5x hidden-xs hidden-md hidden-lg hidden-xl"></i></a>
+                        <a href='mailto:ben@benjamincash.com'><i id="email" className="contact-icons fas fa-envelope fa-5x hidden-sm hidden-md hidden-lg hidden-xl"></i></a>
+                        
+                        <a href="https://www.linkedin.com/in/benjamincash" target="_blank" rel="noopener noreferrer"><i id="linkedin" className="contact-icons fab fa-linkedin fa-6x hidden-sm hidden-xs"></i></a>
+                        <a href="https://github.com/benjaminjcash" target="_blank" rel="noopener noreferrer"><i id="github" className="contact-icons fab fa-github-square fa-6x hidden-sm hidden-xs"></i></a>
+                        <a href="https://www.hackerrank.com/cashbenj" target="_black" rel="noopener noreferrer"><i id="hackerrank" className="contact-icons fab fa-hackerrank fa-6x hidden-sm hidden-xs"></i></a>
 
-                          <a href="https://www.linkedin.com/in/benjamincash" target="_blank" rel="noopener noreferrer"><i id="linkedin" className="contact-icons fab fa-linkedin fa-5x hidden-xs hidden-md hidden-lg hidden-xl"></i></a>
-                          <a href="https://github.com/benjaminjcash" target="_blank" rel="noopener noreferrer"><i id="github" className="contact-icons fab fa-github-square fa-5x hidden-xs hidden-md hidden-lg hidden-xl"></i></a>
-                          <a href="https://www.hackerrank.com/cashbenj" target="_black" rel="noopener noreferrer"><i id="hackerrank" className="contact-icons fab fa-hackerrank fa-5x hidden-xs hidden-md hidden-lg hidden-xl"></i></a>
+                        <a href="https://www.linkedin.com/in/benjamincash" target="_blank" rel="noopener noreferrer"><i id="linkedin" className="contact-icons fab fa-linkedin fa-5x hidden-xs hidden-md hidden-lg hidden-xl"></i></a>
+                        <a href="https://github.com/benjaminjcash" target="_blank" rel="noopener noreferrer"><i id="github" className="contact-icons fab fa-github-square fa-5x hidden-xs hidden-md hidden-lg hidden-xl"></i></a>
+                        <a href="https://www.hackerrank.com/cashbenj" target="_black" rel="noopener noreferrer"><i id="hackerrank" className="contact-icons fab fa-hackerrank fa-5x hidden-xs hidden-md hidden-lg hidden-xl"></i></a>
 
-                          <a href="https://www.linkedin.com/in/benjamincash" target="_blank" rel="noopener noreferrer"><i id="linkedin" className="contact-icons fab fa-linkedin fa-5x hidden-sm hidden-md hidden-lg hidden-xl"></i></a>
-                          <a href="https://github.com/benjaminjcash" target="_blank" rel="noopener noreferrer"><i id="github" className="contact-icons fab fa-github-square fa-5x hidden-sm hidden-md hidden-lg hidden-xl"></i></a>
-                          <a href="https://www.hackerrank.com/cashbenj" target="_black" rel="noopener noreferrer"><i id="hackerrank" className="contact-icons fab fa-hackerrank fa-5x hidden-sm hidden-md hidden-lg hidden-xl"></i></a>
+                        <a href="https://www.linkedin.com/in/benjamincash" target="_blank" rel="noopener noreferrer"><i id="linkedin" className="contact-icons fab fa-linkedin fa-5x hidden-sm hidden-md hidden-lg hidden-xl"></i></a>
+                        <a href="https://github.com/benjaminjcash" target="_blank" rel="noopener noreferrer"><i id="github" className="contact-icons fab fa-github-square fa-5x hidden-sm hidden-md hidden-lg hidden-xl"></i></a>
+                        <a href="https://www.hackerrank.com/cashbenj" target="_black" rel="noopener noreferrer"><i id="hackerrank" className="contact-icons fab fa-hackerrank fa-5x hidden-sm hidden-md hidden-lg hidden-xl"></i></a>
                       </Row>
                     </Panel.Body>
                 </Panel>
