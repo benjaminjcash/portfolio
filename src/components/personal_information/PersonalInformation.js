@@ -5,6 +5,7 @@ import ben from "../../images/ben.jpg";
 import DU_logo from '../../images/education/DU_logo.jpg';
 import CU_logo from '../../images/education/CU_logo.jpg';
 import misty_dark_logo from '../../images/misty/misty_dark_logo.png';
+import rlhco_logo from '../../images/rlhco/rlhco_logo.jpeg';
 
 const PersonalInformation = () => {
   return (
@@ -18,9 +19,11 @@ const PersonalInformation = () => {
                     <h1 id="name">Benjamin Cash</h1>
                   </Panel.Heading>
                   <Panel.Body id="bio">
-                    <h2>Software Developer with a foundation in object-oriented programming in JavaScript and C#. Able to build RESTful APIs, work with relational and
-                          non-relational databases, and develop robust single page applications using ReactJS and Redux.</h2>
-                    <h3>Currently seeking employment on the front range.</h3>
+                    <h2>Software Developer with a broad understanding of object-oriented architecture and design.
+                       I specialize in building modular UIs with ReactJS and Redux, and creating scaleable Drupal 8 modules in php7.</h2>
+                    <h3>Currently employeed as a full-stack dev for Red Lion Hotels based out of Denver and I'm working towards earning
+                      my MS in Software Engineering at Regis University.
+                    </h3>
                   </Panel.Body>
                 </Panel>
               </Col>
@@ -32,10 +35,26 @@ const PersonalInformation = () => {
                   <h2>Technical Skills</h2>
                 </Panel.Heading>
                 <Panel.Body id="skills-panel">
-                  <ul id="skills">
-                      <li>Node.js, React, Redux, Express, C# / .NET, JavaScript / TypeScript, REST API, Websockets, MVC Framework, MongoDb / Mongoose, MySQL / Sequelize, Firebase, Visual Studio, Git / Github,
-  HTML5 / CSS3, JQuery, Handlebars, Bootstrap / Materialize, AWS, Linux CLI / Bash, Mocha / Chai</li>
-                  </ul>
+                  <Row>
+                    <Col md={6}>
+                      <ul class="skills">
+                        <li>Node.js</li>
+                        <li>ReactJS</li>
+                        <li>php7</li>
+                        <li>Drupal 8</li>
+                        <li>MySQL</li>
+                      </ul>
+                    </Col>
+                    <Col md={6}>
+                      <ul class="skills">
+                        <li>Git</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>jQuery</li>
+                        <li>Handlebars</li>
+                      </ul>
+                    </Col>
+                  </Row>
                 </Panel.Body>
               </Panel>
             </Col>
@@ -56,6 +75,7 @@ const PersonalInformation = () => {
                           <li>
                             <h3>Full Stack Web Development Bootcamp</h3>
                             <p>Denver University</p>
+                            <p>2017 - 2018</p>
                           </li>
                         </ul>
                       </Col>
@@ -69,6 +89,7 @@ const PersonalInformation = () => {
                           <li>
                             <h3>BA Mathematics</h3>
                             <p>Univeristy of Colorado Boulder</p>
+                            <p>2008 - 2013</p>
                           </li>
                         </ul>
                       </Col>
@@ -86,13 +107,32 @@ const PersonalInformation = () => {
                       <Panel.Body>
                         <Row>
                           <Col id="exp-logo-column" md={2} xs={1}>
+                            <Image id="rlhco-logo" src={rlhco_logo} alt="image not found"/>
+                          </Col>
+                          <Col id="exp-detail-column" md={10} xs={11}>
+                            <ul id="experience">
+                                <li>
+                                  <h3>Red Lion Hotels Corporation</h3>
+                                  <p>Jr. Software Developer</p>
+                                  <p>April 2019 - present</p>
+                                  <ul id="experience-details">
+                                    <li>Maintain and develop multiple applications, both public-facing and for internal use</li>
+                                    <li>Drupal 8.x, php7, Javascript, JQuery, Handlebars</li>
+                                  </ul>
+                                </li>
+                            </ul>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col id="exp-logo-column" md={2} xs={1}>
                             <Image id="misty-dark-logo" src={misty_dark_logo} alt="image not found"/>
                           </Col>
                           <Col id="exp-detail-column" md={10} xs={11}>
                             <ul id="experience">
                                 <li>
-                                  <h3>Misty Robotics</h3>
+                                  <h3>Misty Robotics (short-term contract)</h3>
                                   <p>Junior Software Engineer</p>
+                                  <p>August 2018 - November 2018</p>
                                   <ul id="experience-details">
                                     <li>Built API for Home Robot Application in C# using Visual Studio IDE</li>
                                     <li>Produced Automated Regression Test Suite for Home Robot Platform in JavaScript</li>

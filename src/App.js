@@ -23,9 +23,9 @@ class App extends Component {
                   <div>
                     <NavTabs />
                     <Route exact path="/" component={Home} />
+                    <Route exact path="/misty" component={MistyRobotics} />
                     <Route exact path="/gather4good" component={Gather4Good} />
                     <Route exact path="/getlunchdenver" component={GetLunchDenver} />
-                    <Route exact path="/misty" component={MistyRobotics} />
                   </div>
               </Panel.Body>
             </Panel>

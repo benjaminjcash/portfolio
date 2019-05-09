@@ -13,7 +13,7 @@ export const MistyRobotics = () => {
               <Jumbotron id="mistytitle">
                   <h1 className="projtitle">Misty Robotics</h1>
                   <p>Misty Robotics is a venture-funded start up based out of Boulder, Colorado with the goal of putting a "personal robot in every household." In addition to writing a regression test suite and developing Misty's software, 
-                    I worked on a small team to write a series of tutorials for users, published on the community website. Check out the link to the tutorials below, or visit the repository 
+                    I worked on a small team to write a series of tutorials for users, published on the community website. Check out the link to the tutorials below, or visit the repository on Github 
                     to see sample skill code.</p>
                   <a className="icons" href="https://docs.mistyrobotics.com/onboarding/creating-skills/writing-skill/" target="_blank" rel="noopener noreferrer">
                     <Image id="misty-light-logo" src={mistylightlogo} alt="img not found"></Image>

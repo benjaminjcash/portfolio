@@ -32,10 +32,10 @@ h1, h2, h3, h4, h5, li, p, i {
     font-style: italic;
 }
 
-#skills {
-    float: right;
+.skills {
+    float: left;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #education-panel-header {
@@ -109,6 +109,10 @@ h1, h2, h3, h4, h5, li, p, i {
   padding-top: 20px;
 }
 
+#rlhco-logo {
+  padding-top: 20px;
+}
+
 @media screen and (min-width: 580px) and (max-width: 991px) {
   #DU_logo {
     margin-left: -20px;
@@ -119,6 +123,10 @@ h1, h2, h3, h4, h5, li, p, i {
   }
 
   #misty-dark-logo {
+    margin-left: -20px;
+  }
+
+  #rlhco-logo {
     margin-left: -20px;
   }
 
@@ -161,10 +169,6 @@ h1, h2, h3, h4, h5, li, p, i {
       font-size: 22px;
     }
 
-    #skills {
-    margin-left: -35px;
-    }
-
     #DU_logo {
       width: 50px;
     }
@@ -174,6 +178,10 @@ h1, h2, h3, h4, h5, li, p, i {
     }
 
     #misty-dark-logo {
+      width: 50px;
+    }
+
+    #rlhco-logo {
       width: 50px;
     }
     
