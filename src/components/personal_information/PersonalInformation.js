@@ -4,6 +4,7 @@ import "./PersonalInformation.css"
 import ben from "../../images/ben.jpg";
 import DU_logo from '../../images/education/DU_logo.jpg';
 import CU_logo from '../../images/education/CU_logo.jpg';
+import regis_logo from '../../images/education/regis_logo.png';
 import misty_dark_logo from '../../images/misty/misty_dark_logo.png';
 import rlhco_logo from '../../images/rlhco/rlhco_logo.jpeg';
 
@@ -19,9 +20,8 @@ const PersonalInformation = () => {
                     <h1 id="name">Benjamin Cash</h1>
                   </Panel.Heading>
                   <Panel.Body id="bio">
-                    <h2>Software Developer with a broad understanding of object-oriented architecture and design.
-                       I specialize in building modular UIs with ReactJS and Redux, and creating scaleable Drupal 8 modules in php7.</h2>
-                    <h3>Currently employeed as a full-stack dev for Red Lion Hotels based out of Denver and I'm working towards earning
+                    <h2>Software Developer with a broad understanding of object-oriented architecture and design.</h2>
+                    <h3>Currently employeed as a full-stack dev for RLH Corp based out of Denver and I'm working towards earning
                       my MS in Software Engineering at Regis University.
                     </h3>
                   </Panel.Body>
@@ -40,8 +40,8 @@ const PersonalInformation = () => {
                       <ul class="skills">
                         <li>Node.js</li>
                         <li>ReactJS</li>
-                        <li>php7</li>
-                        <li>Drupal 8</li>
+                        <li>php8</li>
+                        <li>Drupal</li>
                         <li>MySQL</li>
                       </ul>
                     </Col>
@@ -66,6 +66,20 @@ const PersonalInformation = () => {
                     <h2>Education</h2>
                 </Panel.Heading>
                 <Panel.Body>
+                    <Row>
+                      <Col className="ed-logo-cols" md={2} xs={1}>
+                        <Image id="regis_logo" src={regis_logo} alt="image not found" />
+                      </Col>
+                      <Col className="ed-detail-cols" md={10} xs={11}>
+                        <ul className="education">
+                          <li>
+                            <h3>MS Software Engineering</h3>
+                            <p>Regis University</p>
+                            <p>2019 - present</p>
+                          </li>
+                        </ul>
+                      </Col>
+                    </Row>
                     <Row>
                       <Col className="ed-logo-cols" md={2} xs={1}>
                         <Image id="DU_logo" src={DU_logo} alt="image not found" />
@@ -117,7 +131,9 @@ const PersonalInformation = () => {
                                   <p>April 2019 - present</p>
                                   <ul id="experience-details">
                                     <li>Maintain and develop multiple applications, both public-facing and for internal use</li>
-                                    <li>Drupal 8.x, php7, Javascript, JQuery, Handlebars</li>
+                                    <li>Work across the stack building modules for our multi-site backend application (CORE) using PHP, as
+                                      well as writing business logic for the client application using Javascript, JQuery and Handlebars.
+                                    </li>
                                   </ul>
                                 </li>
                             </ul>
