@@ -105,6 +105,11 @@ h1, h2, h3, h4, h5, li, p, i {
   padding-left: 20px;
 }
 
+#regis_logo {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
 #misty-dark-logo {
   padding-top: 20px;
 }
@@ -119,6 +124,10 @@ h1, h2, h3, h4, h5, li, p, i {
   }
 
   #CU_logo {
+    margin-left: -20px;
+  }
+
+  #regis_logo {
     margin-left: -20px;
   }
 
@@ -175,6 +184,10 @@ h1, h2, h3, h4, h5, li, p, i {
 
     #CU_logo {
       width: 50px;
+    }
+
+    #regis_logo {
+      widtH: 50px;
     }
 
     #misty-dark-logo {

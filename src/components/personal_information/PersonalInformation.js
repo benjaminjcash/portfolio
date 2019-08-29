@@ -4,7 +4,7 @@ import "./PersonalInformation.css"
 import ben from "../../images/ben.jpg";
 import DU_logo from '../../images/education/DU_logo.jpg';
 import CU_logo from '../../images/education/CU_logo.jpg';
-import regis_logo from '../../images/education/regis_logo.png';
+import regis_logo from '../../images/education/regis_logo.jpg';
 import misty_dark_logo from '../../images/misty/misty_dark_logo.png';
 import rlhco_logo from '../../images/rlhco/rlhco_logo.jpeg';
 
